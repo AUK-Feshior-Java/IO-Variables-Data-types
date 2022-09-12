@@ -32,6 +32,7 @@ public class Main {
 
         //Demonstrate String operations.
         String name = "Vladislav";
+        String surname = "Shvets";
         System.out.println(name.toLowerCase());
         System.out.println(name.toUpperCase());
 
@@ -41,6 +42,8 @@ public class Main {
         System.out.println("-");
 
         System.out.println("First letter -> " + name.toCharArray()[0]);
+
+        System.out.println(name + " " + surname);
 
         //Demonstrate Input/Output operations.
         //Output
